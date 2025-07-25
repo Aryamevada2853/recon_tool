@@ -29,3 +29,5 @@ A Python-based recon toolkit for bug bounty hunters and pentesters.✨ Features
 git clone https://github.com/Aryamevada2853/recon_tool.git
 cd recon_tool
 pip install -r requirements.txt
+python recon_tool.py 
+
