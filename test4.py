@@ -2,7 +2,7 @@ import sys
 import dns.resolver
 import requests
 
-# ====== Colors for pretty output ======
+# Colors for pretty output 
 class color:
     HEADER = '\033[95m'
     BLUE = '\033[94m'
@@ -15,7 +15,7 @@ class color:
 def separator(title):
     print(f"\n{color.HEADER}{'='*20} {title} {'='*20}{color.END}")
 
-# ====== Common fingerprints for takeover ======
+#  Common fingerprints for takeover 
 FINGERPRINTS = {
     "github.io": "There isn't a GitHub Pages site here.",
     "herokuapp.com": "No such app",
