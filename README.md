@@ -1,6 +1,8 @@
 🔎 Recon Tool
 
-A Python-based recon toolkit for bug bounty hunters and pentesters.✨ Features
+A Python-based recon toolkit for bug bounty hunters and pentesters.
+
+✨ Features
 
 1. Passive Recon (test1.py)
 - WHOIS lookup
