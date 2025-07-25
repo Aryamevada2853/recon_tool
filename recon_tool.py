@@ -52,7 +52,7 @@ def main():
             subprocess.run([sys.executable, "test3.py", target])
 
         elif choice == "4":
-            target = input(f"{color.BLUE}Enter target for module 4: {color.END}").strip()
+            target = input(f"{color.BLUE}Enter target for module 4(subfinder_subs.txt, add this): {color.END}").strip()
             subprocess.run([sys.executable, "test4.py", target])
 
         elif choice == "0":
